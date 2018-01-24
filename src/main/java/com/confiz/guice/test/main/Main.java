@@ -14,6 +14,10 @@ public class Main {
 		MyApplication app = injector.getInstance(MyApplication.class);
 		
 		app.speak("Tiger");
+		
+		app.sendMessage("hello logger");
+		
+		
 	}
 
 }
